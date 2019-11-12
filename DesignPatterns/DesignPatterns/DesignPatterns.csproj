@@ -53,10 +53,10 @@
     <Compile Include="Adapter Homework\Models\DbUserInfoEntity.cs" />
     <Compile Include="Adapter Homework\Models\Interfaces\IDbEntity.cs" />
     <Compile Include="Adapter Homework\SecondOrmLibrary\ISecondOrm.cs" />
+    <Compile Include="ChainOfResponsibilities Homework\Bancomat.cs" />
     <Compile Include="Decorator Homework\HideUsersDecorator.cs" />
     <Compile Include="Decorator Homework\IChatClient.cs" />
     <Compile Include="Decorator Homework\Message.cs" />
-    <Compile Include="Decorator Homework\DecoratedChatClient.cs" />
     <Compile Include="Decorator Homework\EncryptedDecorator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

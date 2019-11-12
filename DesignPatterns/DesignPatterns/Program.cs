@@ -1,4 +1,4 @@
-﻿using DesignPatterns.Decorator_Homework;
+﻿using Example_06.ChainOfResponsibility;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,19 +11,8 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            var client = new SimpleChatClient();
-            var hided = new HideUsersDecorator(client);
-            var encrypted = new EncryptedDecorator(hided);
-
-            var message = new Message("Luke", "Ilya", "Hello world!");
-            encrypted.Send(message);
-
-            Console.WriteLine(client.Messages.First().Author);
-            Console.WriteLine(client.Messages.First().Text);
-
-            var res = encrypted.Receive();
-            Console.WriteLine(res.Author);
-            Console.WriteLine(res.Text);
+            var bank = new Bancomat();
+            var s = bank.CashOut(253, "$");
             Console.ReadKey();
         }
     }
