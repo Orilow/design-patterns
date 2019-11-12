@@ -2,11 +2,7 @@
 using Example_04.Homework.FirstOrmLibrary;
 using Example_04.Homework.Models;
 using Example_04.Homework.SecondOrmLibrary;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DesignPatterns.Adapter_Homework.Clients
 {
