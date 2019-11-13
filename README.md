@@ -25,9 +25,7 @@ All files related to this task can be found at **/DesignPatterns/DesignPatterns/
 ### Homework "ChainOfResponsibility" (5):
 >You need to add to the ATM the ability to withdraw funds
 different currencies. Add a chain of responsibilities from the example Example_06. Add to each handler a method that will be
-cash out the transferred amount. It is worth paying attention to:
-1) Chaining Procedure
-2) The ability to cash the transferred amount
+cash out the transferred amount. It is worth paying attention to:1) Chaining Procedure 2) The ability to cash the transferred amount
 
 
 All files related to this task can be found at **/DesignPatterns/DesignPatterns/ChainOfResponsibilities Homework** 
